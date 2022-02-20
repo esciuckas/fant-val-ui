@@ -1,15 +1,19 @@
 
 # Requirements to run locally
 Once this project is cloned down locally you will still need:\
-Docker Desktop for Windows which can be installed from here [https://docs.docker.com/desktop/windows/install/](https://docs.docker.com/desktop/windows/install/)
+Docker Desktop for Windows which can be installed from here [https://docs.docker.com/desktop/windows/install/](https://docs.docker.com/desktop/windows/install/)\
 
-Once Docker Desktop is all installed and ready to go just run
+Once Docker Desktop is all installed you will need to open it in order to accept the terms of service and then follow the instructions in the popup for the final step (just need to do step 4 and the return to the popup).\
+
+Follwing the turorial can be a easy way to check that docker is properly configured.\
+
+In order to run the app run the folliwng inside of the folder containing /src, docker-compose.yml, Dockerfile, etc.:
 
 ### `docker-compose up -d --build`
 
-Inside of the folder containing /src, docker-compose.yml, Dockerfile, etc.
-
 I recommend using Visual Studio Code and the PowerShell consol built into  it to run this app as that is how I tested it.\
+
+You can now access the app at [http://localhost:3001](http://localhost:3001)
 
 To stop the local server run
 
