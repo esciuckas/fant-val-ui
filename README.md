@@ -7,7 +7,7 @@ Once Docker Desktop is all installed you will need to open it in order to accept
 
 Follwing the turorial can be an easy way to check that docker is properly configured.
 
-In order to run the app run the folliwng inside of the folder containing /src, docker-compose.yml, Dockerfile, etc.:
+In order to run the app run the folliwng inside of the folder containing /src, docker-compose.yml, Dockerfile, etc:
 
 ### `docker-compose up -d --build`
 
@@ -15,7 +15,7 @@ I recommend using Visual Studio Code and the PowerShell consol built into  it to
 
 You can now access the app at [http://localhost:3001](http://localhost:3001)
 
-To stop the local server run
+To stop the local server run:
 
 ### `docker-compose stop`
 
