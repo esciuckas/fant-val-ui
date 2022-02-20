@@ -1,3 +1,26 @@
+
+# Requirements to run locally
+Once this project is cloned down locally you will still need:\
+Docker Desktop for Windows which can be installed from here [https://docs.docker.com/desktop/windows/install/](https://docs.docker.com/desktop/windows/install/)
+
+Once Docker Desktop is all installed and ready to go just run
+
+### `docker-compose up -d --build`
+
+Inside of the folder containing /src, docker-compose.yml, Dockerfile, etc.
+
+I recommend using Visual Studio Code and the PowerShell consol built into  it to run this app as that is how I tested it.\
+
+To stop the local server run
+
+### `docker-compose stop`
+
+
+
+# ------------ Default README.md ------------ #
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
