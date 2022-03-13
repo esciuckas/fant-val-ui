@@ -11,9 +11,13 @@ In order to run the app run the folliwng inside of the folder containing /src, d
 
 ### `docker-compose up -d --build`
 
-I recommend using Visual Studio Code and the PowerShell consol built into  it to run this app as that is how I tested it.
+I recommend using Visual Studio Code and the PowerShell console built into  it to run this app as that is how I tested it.
 
 You can now access the app at [http://localhost:3001](http://localhost:3001)
+
+You can copy the node_modules folder using command:
+
+### `docker cp fant-val-ui:/app/node_modules .`
 
 To stop the local server run:
 
